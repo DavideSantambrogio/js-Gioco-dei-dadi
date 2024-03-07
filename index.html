@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">        
+        <div class="row">             
+            <div class="col">
+                <h1>Il tuo dado</h1>
+                <div class="dice" id="my-number">
+
+                </div>
+            </div>
+            
+            <div class="col">
+                <h1>Il dado del computer</h1>
+                <div class="dice" id="computer-number">
+                    
+                </div>
+            </div>             
+
+            <div class="message" id="message">
+                <h1 id="result"></h1>
+                <button onclick="location.reload()">
+                    <h3>Gioca ancora</h3>
+                </button>
+            </div>
+
+            <div class="start" id="start">
+                <h2> Regole del gioco:</h2>
+                <h2> Lancia i dadi, se il tuo numero è più alto di quello del computer vinci</h2>
+                <button id="lancio">
+                    <h3>Lancia i dadi</h3>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
